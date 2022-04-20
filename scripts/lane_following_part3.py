@@ -85,11 +85,6 @@ class Follower:
                 
                 gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
                 corners, markerID, rejected = aruco.detectMarkers(gray, aruco_dict, parameters=param)
-                #322.0704122808738, 0, 199.2680620421962, 0, 320.8673986158544, 155.2533082600705, 0, 0, 1
-                #matrix = numpy.array([[265, 0., 160],
-                #                      [0., 265, 120],
-                #                      [0., 0., 1.]])
-                #dist = numpy.array([[0., 0., 0., 0., 0.]]) 
                 matrix = numpy.array([[322.0704122808738, 0., 199.2680620421962],
                                       [0., 320.8673986158544, 155.2533082600705],
                                       [0., 0., 1.]])
