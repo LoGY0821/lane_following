@@ -6,7 +6,7 @@ This is the lab assignment for SUSTech EE346, which is produced by Haoteng Ye, S
 ## 1. Clone the source code
 ```bash
 cd ~/catkin_ws/src
-git clone https://github.com/LoGY0821/EE346_SUSTech_Lane_Following.git
+git clone https://github.com/LoGY0821/lane_following.git
 ```
 
 ## 2. Catkin make the lane following package
